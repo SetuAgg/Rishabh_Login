@@ -1,0 +1,6 @@
+{
+  "test_admin_login.py::Test_01_Admin_Login::test_image_displayed": true,
+  "test_admin_login.py::Test_01_Admin_Login::test_invalid_admin_login": true,
+  "test_admin_login.py::Test_01_Admin_Login::test_title_verification": true,
+  "test_admin_login.py::Test_01_Admin_Login::test_valid_admin_login": true
+}

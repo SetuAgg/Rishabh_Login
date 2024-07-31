@@ -7,6 +7,7 @@ class Login_Admin_Page:
     textbox_password_id = "password"
     btn_login_xpath = "//button[@type='submit']"
     image_Xpath = "//img[@class='img img-responsive']"
+    class_Name = "FP_BTN jb-link pt-2"
 
 #Action Methods
 
@@ -24,6 +25,12 @@ class Login_Admin_Page:
 
     def click_login(self):
         self.driver.find_element(By.XPATH, self.btn_login_xpath).click()
+
+
+
+
+
+
 
 
 

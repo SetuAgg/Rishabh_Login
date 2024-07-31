@@ -6,10 +6,11 @@ def setup():
     driver = webdriver.Chrome()
     return driver
 
+
 def pytest_configure(config):
-    config.stash[metadata_key] ['Project Name'] = 'Learning, MyProject'
-    config.stash[metadata_key]['Test Module Name'] = 'Admin Login Tests'
-    config.stash[metadata_key]['Tester Name'] = 'Setu Aggarwal'
+        config.stash[metadata_key]['Project Name'] = 'Learning, MyProject'
+        config.stash[metadata_key]['Test Module Name'] = 'Admin Login Tests'
+        config.stash[metadata_key]['Tester Name'] = 'Setu Aggarwal'
 
 @pytest.mark.optionalhook
 def pytest_metadata(metadata):
